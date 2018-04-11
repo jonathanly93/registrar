@@ -1,11 +1,11 @@
 
-Initial Setup
+### Initial Setup
 1) Load the sql file to start up the Registrar DB
 2) compile all the files
 3) java MainDriver
 
 
-To Test for restriction (student cant sign up with restrictions) follow these steps
+### Testing
 1) login
 2) jon@example.com 12345
 3) enrollment
@@ -14,14 +14,7 @@ To Test for restriction (student cant sign up with restrictions) follow these st
 6) <course_id> <section_id> (4 400 for example)
 7) You should not be able to sign up
 
-To Test for every other function use email: jeff@example.com password: 12345, or sign up a user and use that account.
-
-Classes Fully Implemented: Course, CourseCatalog, RegisteredUser, Restriction, RestrictionList,
-
-Section, Student, StudentCourse, StudentCourseList, Student, UserSession
-
-
-Objective: Navigate through a Registrar and allow the user to do the following:
+### Objectives: Navigate through a Registrar and allow the user to do the following:
 1) Sign up for a new user.
 2) Login to an existing user. (10 in the default DB but you can log in with newly created users)
 3) Sign up for courses. (up to 3 courses)
@@ -33,3 +26,11 @@ Objective: Navigate through a Registrar and allow the user to do the following:
 9) View restrictions
 10) View users information
 11) Sign out and end a user session.
+
+
+### Note
+To Test for every other function use email: jeff@example.com password: 12345, or sign up a user and use that account.
+
+Classes Fully Implemented: Course, CourseCatalog, RegisteredUser, Restriction, RestrictionList,
+
+Section, Student, StudentCourse, StudentCourseList, Student, UserSession
